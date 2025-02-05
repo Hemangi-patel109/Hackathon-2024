@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family:"aeonik";
+    src: url(AeonikTRIAL-Regular.otf);
+}
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.medq_homepage{
+    height: 100%;
+    width: 100%;
+
+}
+.medq_landing{
+    height: 100vh;
+    width: 100vw;  
+    background: #ff6e7f;
+    background: linear-gradient(
+        to left,
+        #ff6e7f,#bfe9ff
+    );
+}
+.medicine {
+    height: 40rem;
+    width: 45rem;
+}
+.glassin-nav{
+    border-radius: 50px;
+    padding: 20px 35px;
+    display: flex;
+    position:sticky;
+    overflow: hidden;
+    width: 50%;
+    height: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(40px);
+    background-color: rgba(44, 44, 44, .25);
+    transform: scale(1);
+}
+.glassin-nav::before{
+    content: "";
+    top: var(--y);
+    left:var(--x) ;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: radial-gradient(#d66c6c,transparent,transparent);
+    width: 200px;
+    height: 200px;
+    opacity:0;
+    transition: 0.5s;
+}
+.glassin-nav:hover::before{
+    opacity: 1;
+}
+
+.nav_homepage{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nav-a{
+    text-decoration: none;
+}
+
+.nav-elem{
+    font-weight: 900;
+    font-family: aeonik;
+    color: rgb(255, 255, 255);
+    will-change: transform;
+    height: 2rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.6rem;
+    transition: all 0.3s ease-in-out;
+    border:  1px solid rgb(202, 202, 202) ;
+    border-radius: 50px;
+    letter-spacing: 0.1rem; 
+}
+.nav-elem:hover{
+    color: white;
+    border-radius: 50px;
+    background: #d66c6c;
+    backdrop-filter: blur( 50px );
+    -webkit-backdrop-filter: blur( 30px );
+    border: 1px solid #ff6e7f;
+} 
+.blur{
+    position: absolute;
+    top:0 ;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.medi-img{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d; 
+    will-change: transform;
+}
+
+.tagline{
+    position: absolute;
+    font-family:aeonik;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-color: #d7d7d7;
+    letter-spacing: 0.2rem;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-items: center;
+}
+.button {
+    cursor: pointer;
+    border: none;
+    background: #d66c6c;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-content: center;
+    transition: 300ms,
+    transform 200ms;
+    font-weight: 600;
+}
+
+.button__text {
+    position: absolute;
+    inset: 0;
+    animation: text-rotation 8s linear infinite;
+    > span {
+        position: absolute;
+        transform: rotate(calc(28deg * var(--index)));
+        inset: 5px;
+    }
+}
+
+.button__circle {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    background: #fff;
+    color: #d66c6c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__icon--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+}
+
+.button:hover {
+    background: #000;
+    transform: scale(1.05);
+}
+
+.button:hover .button__icon {
+    color: #000;
+}
+
+.button:hover .button__icon:first-child {
+    transition: transform 0.3s ease-in-out;
+    transform: translate(150%, -150%);
+}
+
+.button:hover .button__icon--copy {
+    transition: transform 0.3s ease-in-out 0.1s;
+    transform: translate(0);
+}
+
+@keyframes text-rotation {
+    to {
+        rotate: 360deg;
+    }
+}

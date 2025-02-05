@@ -1,0 +1,2137 @@
+@media (min-width: 900px) and (max-width:1245px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .review-page {
+        margin-top: 80px;
+    } 
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 80px;
+        height: 85vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 200px;
+    }
+    .review-text {
+        padding-top: 50px;
+        font-size: 1.8rem;
+    }
+    .flying-img {
+        width: 180px;
+    }
+    .flying-img img {
+        width: 200px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 108vh;
+    }
+    .contact-footer {
+        padding-top: 20em;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 1rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 30em;
+        margin-left: -15.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 28rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 799px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 200px;
+        height: 85vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 200px;
+    }
+    .review-text {
+        font-size: 1.6rem;
+        padding-top: 50px;
+    }
+    .flying-img {
+        width: 160px;
+    }
+    .flying-img img {
+        width: 180px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .contact-footer {
+        padding-top: 20em;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0.9rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 30em;
+        margin-left: -15.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 20rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    /* General Styles for Mobile View */
+/* @media (max-width: 767px) { */
+    /* Adjust the list to a single column layout */
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 699px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 80px;
+        height: 85vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 200px;
+    }
+    .review-text {
+        font-size: 1.4rem;
+        padding-top: 50px;
+    }
+    .flying-img {
+        width: 140px;
+    }
+    .flying-img img {
+        width: 160px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .contact-footer {
+        padding-top: 20em;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0.5rem;
+    }
+    .footer-text{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 30em;
+        margin-left: -15.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 19rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 629px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 80px;
+        height: 85vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 200px;
+    }
+    .review-text {
+        font-size: 1.2rem;
+        padding-top: 50px;
+    }
+    .flying-img {
+        width: 120px;
+    }
+    .flying-img img {
+        width: 140px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 105vh;
+    }
+    .contact-footer {
+        padding-top: 20em;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0.6rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 30em;
+        margin-left: -15.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 14rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 546px) and (max-width: 590px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 90px;
+        height: 75vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 1rem;
+    }
+    .flying-img {
+        width: 100px;
+    }
+    .flying-img img {
+        width: 120px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 105vh;
+    }
+    .contact-footer {
+        padding-top: 20em;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0.5rem;
+    }
+    .footer-text{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .linked-text {
+        font-size: 10px;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 30em;
+        margin-left: -15.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 12rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 512px) and (max-width: 545px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 90px;
+        height: 85vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 1rem;
+    }
+    .flying-img {
+        width: 90px;
+    }
+    .flying-img img {
+        width: 130px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 105vh;
+    }
+    .contact-footer {
+        padding-top: 250px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+        padding-top: 25rem;
+    }
+    .contact-footer > p {
+        padding: 0.2rem;
+    }
+    .footer-text{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 30em;
+        margin-left: -15.5em;
+        padding-top: 2rem;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 7rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 464px) and (max-width: 511px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 90px;
+        height: 80vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 0.9rem;
+    }
+    .flying-img {
+        width: 80px;
+    }
+    .flying-img img {
+        width: 110px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .contact-footer {
+        padding-top: 250px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0.2rem;
+        padding-top: 5rem;
+    }
+    .footer-text{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 28em;
+        margin-left: -13.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 7rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 443px) and (max-width: 463px) {
+    .glassin-nav{
+        margin: 0 50px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 90px;
+        height: 80vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 1rem;
+    }
+    .flying-img {
+        width: 70px;
+    }
+    .flying-img img {
+        width: 110px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .contact-footer {
+        padding-top: 250px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0rem;
+        padding-top: 4rem;
+    }
+    .footer-text{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -110px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 28em;
+        margin-left: -13.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 5rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 441px) {
+    .glassin-nav{
+        margin: 0 40px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 30rem;
+        width: 35rem;
+    }
+    .review-page {
+        margin-top: 90px;
+        height: 80vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 0.9rem;
+    }
+    .flying-img {
+        width: 60px;
+    }
+    .flying-img img {
+        width: 100px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .contact-footer {
+        padding-top: 250px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0rem;
+        padding-top: 5rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -110px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 25em;
+        margin-left: -12em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 3rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+@media (min-width: 355px) and (max-width: 424px) {
+    .glassin-nav{
+        margin: 0 30px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+    }
+    .medicine {
+        height: 20rem;
+        width: 25rem;
+    }
+    .review-page {
+        margin-top: 100px;
+        height: 80vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 0.9rem;
+    }
+    .flying-img {
+        width: 60px;
+    }
+    .flying-img img {
+        width: 100px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .contact-footer {
+        padding-top: 200px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0;
+        padding-top: 1.5rem;
+    }
+    .footer-text{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -160px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 20em;
+        margin-left: -10.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 1rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+@media (min-width: 319px) and (max-width: 353px) {
+    .glassin-nav{
+        margin: 0 30px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    .medicine {
+        height: 20em;
+        width: 25rem;
+    }
+    .review-page {
+        margin-top: 100px;
+        height: 80vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 0.9rem;
+    }
+    .flying-img {
+        width: 60px;
+    }
+    .flying-img img {
+        width: 100px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 105vh;
+    }
+    .contact-footer {
+        padding-top: 250px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content:center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0;
+        padding-top: 3rem;
+    }
+    .footer-text{
+        font-size: 0.8rem;
+        text-align:center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -100px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 20em;
+        margin-left: -10.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 0rem;
+    }
+    .location {
+        margin-left: 1rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 318px) {
+    .button {
+        cursor: pointer;
+        border: none;
+        background: #d66c6c;
+        color: #fff;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        display: grid;
+        place-content: center;
+        transition: 300ms,
+        transform 200ms;
+        font-weight: 600;
+    }
+    .button__circle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        background: #fff;
+        color: #d66c6c;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .glassin-nav{
+        margin: 0 30px;
+        border-radius: 50px;
+        padding: 20px 35px;
+        display: flex;
+        position:sticky;
+        overflow: hidden;
+        width: 100%;
+        height: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(40px);
+        background-color: rgba(44, 44, 44, .25);
+        transform: scale(1);
+    }
+    h1 {
+        text-align: center;
+        font-size:  50px;
+    }
+    .medicine {
+        height: 20rem;
+        width: 25rem;
+    }
+    .review-page {
+        margin-top: 100px;
+        height: 80vh;
+        width: 100%;
+        /* background-color: #204e51; */
+        perspective: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .review-text {
+        font-size: 0.9rem;
+    }
+    .flying-img {
+        width: 60px;
+    }
+    .flying-img img {
+        width: 100px;
+    }
+    .footer-parent {
+        width: 100%;
+        font-family: aeonik;
+        /* background-color: #d1e1e7; */
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .contact-footer {
+        padding-top: 220px;
+        margin: 5rem;
+        display: flex;
+        border-top: 1px solid rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-footer > p {
+        padding: 0;
+        padding-top: 1rem;
+    }
+    .footer-text{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .social-tags {
+        margin-top: -60px;
+        border-left: none;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .medi-svg{
+        width: 100%;
+        height: 100%;
+        margin-top: -160px;
+        transform: scaleX(-1);
+        height: 44em;
+        width: 15em;
+        margin-left: -7.5em;
+    }
+    .stuff-footer {
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1rem;
+    }
+    .location {
+        margin-left: 3rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .review_h1 {
+        padding: 0 3.5rem;
+    }
+    #cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 2vw;
+        padding-bottom: 2vw;  
+        margin-top: 2vw;
+    }
+
+    /* Adjust card width and padding */
+    .card {
+        width: 90vw;
+        padding-top: calc(var(--index) * 1em);
+    }
+
+    /* Adjust card content to fit mobile screen */
+    .card-content {
+        grid-template-columns: 1fr;
+        grid-template-areas: "text" "img";
+        padding: 1em;
+    }
+
+    .card-content > img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: .4em;
+    }
+
+    /* Adjust header font sizes */
+    .stack_header h1 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
+    .stack_header h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Adjust marquee styles */
+    .marquee {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .marquee-inner {
+        width: 100%;
+    }
+
+    .marquee-part {
+        padding: 0 2px;
+    }
+
+    /* Adjust image sizes for mobile */
+    #appointment_homepage > img {
+        width: 80vw;
+        height: auto;
+    }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medq | login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="signup_signup">
+        <nav class="signup_logo">
+            <h1 class="signup_logo-name">medq</h1>
+        </nav>
+        <div class="signup_form">
+            <div class="signup_wrapper">
+                <form action="">
+                    <h1>Sign Up</h1>
+                    <div class="signup_com">
+                        <div class="signup_input-box">
+                            <input type="text" v-model:value="username" placeholder="Username" name="username">
+                            <box-icon type='solid' name='user' color="white"></box-icon>
+                        </div>
+                        <div class="signup_input-box">
+                            <input type="email" v-model:value="username" placeholder="Email">
+                            <box-icon type='solid' name='user' color="white"></box-icon> 
+                        </div>
+                    </div>
+                    <div class="signup_pass">
+                        <div class="signup_input-box">
+                            <input type="password" placeholder="Password" id="password" required  class="signup_form-control" name="password" value=""><br>
+                            <button id="toggleButton" class="signup_toggle-icon">
+                                <i class="fas fa-eye" id="eye1"></i>
+                            </button>
+                        </div>
+                        <div class="signup_input-box">
+                            <input type="re-password" placeholder="re-Password" id="re-password" required  class="fsignup_orm-control" name="password" value=""><br>
+                            <button id="toggleButton2" class="signup_toggle-icon">
+                                <i class="fas fa-eye" id="eye2"></i>
+                            </button>
+                        </div>
+                    </div> <br>
+                
+                    <div class="signup_radio-wrapper">
+                        <input type="radio" class="signup_radio" id="radio1" name="radio-group">
+                        <label for="radio1" class="signup_label">
+                            <svg width="45" height="45" viewBox="0 0 95 95">
+                                <circle cx="50" cy="50" r="20" stroke="black" fill="none"></circle>
+                                <g transform="translate(0,-952.36222)">
+                                    <path d="m 56,963 c -102,122 6,9 7,9 17,-5 -66,69 -38,52 122,-77 -7,14 18,4 29,-11 45,-43 23,-4" stroke="black" stroke-width="3" fill="none" class="signup_path1"></path>
+                                </g>
+                            </svg>
+                            <span>Doctor</span>
+                        </label>
+                    </div>
+                
+                    <div class="signup_radio-wrapper">
+                        <input type="radio" class="signup_radio" id="radio2" name="radio-group">
+                        <label for="radio2" class="signup_label">
+                            <svg width="45" height="45" viewBox="0 0 95 95">
+                                <circle cx="50" cy="50" r="20" stroke="black" fill="none"></circle>
+                                <g transform="translate(0,-952.36222)">
+                                    <path d="m 56,963 c -102,122 6,9 7,9 17,-5 -66,69 -38,52 122,-77 -7,14 18,4 29,-11 45,-43 23,-4" stroke="black" stroke-width="3" fill="none" class="signup_path1"></path>
+                                </g>
+                            </svg>
+                            <span>Staff</span>
+                        </label>
+                    </div>
+                    
+                    <div class="signup_radio-wrapper">
+                        <input type="radio" class="signup_radio" id="radio3" name="radio-group">
+                        <label for="radio3" class="signup_label">
+                            <svg width="45" height="45" viewBox="0 0 95 95">
+                                <circle cx="50" cy="50" r="20" stroke="black" fill="none"></circle>
+                                <g transform="translate(0,-952.36222)">
+                                    <path d="m 56,963 c -102,122 6,9 7,9 17,-5 -66,69 -38,52 122,-77 -7,14 18,4 29,-11 45,-43 23,-4" stroke="black" stroke-width="3" fill="none" class="path1"></path>
+                                </g>
+                            </svg>
+                            <span>Patient</span>
+                        </label>
+                    </div>
+                    
+                    <div class="signup_remember-forget">
+                        <label><input type="checkbox" >Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div><br>
+                    <div class="signup_btnparent">
+                    <button class="signup_button">Login</a></button>
+                    <button class="signup_button">
+                        Login  With&nbsp;<i class="fa-brands fa-google"></i></button>
+                    </div><br>
+                    <div class="signup_register-link">
+                        <p>Don't have an account?<br> <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <video class="signup_dna" src="blur - Made with Clipchamp (1).mp4" autoplay loop muted alt="" srcset=""> 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const passwordInput = document.getElementById('password');
+            const toggleButton = document.getElementById('toggleButton');
+            const eyeIcon = toggleButton.querySelector('i');
+
+            toggleButton.addEventListener('click', (event) => {
+                event.preventDefault();
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    eyeIcon.classList.remove('fa-eye');
+                    eyeIcon.classList.add('fa-eye-slash');
+                } else {
+                    passwordInput.type = 'password';
+                    eyeIcon.classList.remove('fa-eye-slash');
+                    eyeIcon.classList.add('fa-eye');
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const passwordInput = document.getElementById('password');
+            const toggleButton = document.getElementById('toggleButton');
+            const eyeIcon = document.getElementById('eye1');
+
+            const repeatpassword = document.getElementById('re-password');
+            const toggleButton2 = document.getElementById('toggleButton2');
+            const eyeIcon2 = document.getElementById('eye2');
+
+            toggleButton.addEventListener('click', (event) => {
+                event.preventDefault();
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    eyeIcon.classList.remove('fa-eye');
+                    eyeIcon.classList.add('fa-eye-slash');
+                } else {
+                    passwordInput.type = 'password';
+                    eyeIcon.classList.remove('fa-eye-slash');
+                    eyeIcon.classList.add('fa-eye');
+                }
+            });
+    </script>
+</body>
+</html> 
